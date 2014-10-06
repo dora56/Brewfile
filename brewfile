@@ -1,0 +1,42 @@
+
+mebrew-cask設定、インストール
+tap homebrew/versions
+# Caskを追加したため向き先を自身のRepositoryに
+tap caskroom/cask
+tap caskroom/versions
+#tap phinze/homebrew-cask
+tap vexus2/homebrew-cask
+tap homebrew/binary
+# for ricty
+tap sanemat/font
+
+
+# 各種インストール
+install brew-cask
+install rbenv rbenv-gem-rehash ruby-build zsh zsh-completions git openssl  cmake fish wget boot2docker docker
+
+cask install java
+
+# 必須アプリ
+cask install phpstorm
+cask install rubymine
+cask install intellij-idea
+cask install appcode
+
+cask install iterm2
+cask install firefox
+cask install virtualbox
+cask install vagrant
+cask install kobito
+cask install google-japanese-ime
+cask install karabiner
+cask install alfred
+cask install dropbox
+cask install onepassword
+cask install evernote
+cask install bettertouchtool
+cask install day-o
+cask install skitch
+cask install appcleaner
+cask install dash
+cask install sourcetree
