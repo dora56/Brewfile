@@ -7,6 +7,7 @@ tap caskroom/versions
 #tap phinze/homebrew-cask
 tap vexus2/homebrew-cask
 tap homebrew/binary
+tap homebrew/dupes 
 # for ricty
 tap sanemat/font
 
@@ -30,7 +31,7 @@ cask install iterm2
 cask install firefox
 cask install virtualbox
 cask install vagrant
-cask install kobito
+cask install libiconv
 cask install google-japanese-ime
 cask install karabiner
 cask install dropbox
